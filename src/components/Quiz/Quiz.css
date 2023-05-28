@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(123, 88, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    }
+.image {
+    height: 400px;
+    width: 700px;
+}
+.button {
+    background-color: aqua;
+    color: black;
+    margin: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+@media screen and (max-width: 650px) {
+    .Quiz {
+        margin-top: 250px;
+        width: 380px;
+    }
+    .quizPanelImage{
+        width: 250px;
+        margin-left: 5%;
+    }
+
+    .image{
+        width: 340px;
+    }
+}
